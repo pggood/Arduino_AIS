@@ -4,20 +4,20 @@
  * based on dAISy project Adrian Studer ported to arduino
  * License: CC BY-NC-SA Creative Commons Attribution-NonCommercial-ShareAlike
  *       http://creativecommons.org/licenses/by-nc-sa/4.0/
+ * vcc on radio to 3.3volt
+ * gnd on radio to gnd
+ * gpio2 on radio to pin d2
+ * irq on radio to pin d3
+ * nsel on radio to pin d4
+ * gpio1 on radio to pin d5
+ * gpio3 on radio to pin d6
+ * sdn on radio to pin d8 
+ * mosi on radio to pin d11
+ * miso on radio to pin d12
+ * clock on radio to pin d13
  */
 #include <SPI.h> 
 #include "radio_config.h"
-//vcc on radio to 3.3volt
-//gnd on radio to gnd
-//gpio2 on radio to pin d2
-//irq on radio to pin d3
-//nsel on radio to pin d4
-//gpio1 on radio to pin d5
-//gpio3 on radio to pin d6
-//sdn on radio to pin d8 
-//mosi on radio to pin d11
-//miso on radio to pin d12
-//clock on radio to pin d13
 static const char config[] = RADIO_CONFIGURATION_DATA_ARRAY;
 const int ClockPin =2; // 
 const int IRQPin =3;
@@ -614,20 +614,6 @@ void loop() {
   unsigned char nmea_byte=0;
   unsigned char nmea_bit=6;
   unsigned char stuff_bits;
-  /*
-  chan_timer++;          
-  if (chan_timer == 343)Si4464_write((const byte[]){0x32,0x00,0x00,0x00,0x00,0x00,0x00,0x00},8);
-  for (int timer = 0; timer < 6082; timer++) {
-    asm("nop");
-  }
-  if (chan_timer == 686){
-    Si4464_write((const byte[]){0x32,0x01,0x00,0x00,0x00,0x00,0x00,0x00},8);
-    chan_timer=0;
-  }
-  for (int timer = 0; timer < 6082; timer++) {
-    asm("nop");
-  }
-*/
   #ifdef DEBUG
    switch (ph_last_error) {
     case PH_ERROR_NONE:
