@@ -30,4 +30,4 @@ All content of this project is published under CC BY-NC-SA - [Creative Commons A
 - clock on radio to pin d13 
 
 When buying the si446x module make sure it has a 30mhz crystal rather than 26mhz and that it has connectors for all the GPIO Pins you will have better success with the ones that don't have an antenna switch.
-you can directly connect on a 3.3v Arduino or use 1k limiting resistors D4 D8 D11 , D13  
+you can directly connect on a 3.3v Arduino or use 1k limiting resistors D4, D8, D11, D13 on a 5volt version to limit the current  
