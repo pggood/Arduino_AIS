@@ -19,7 +19,7 @@
 #include <SPI.h> 
 #include "radio_config.h"
 static const char config[] = RADIO_CONFIGURATION_DATA_ARRAY;
-const int ClockPin =2; // 
+const int ClockPin =2;  
 const int IRQPin =3;
 const int chipSelectPin = 4;
 const int CLSpin=5;
