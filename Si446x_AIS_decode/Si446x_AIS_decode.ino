@@ -1,5 +1,5 @@
 /*
- * Library to control Silicon Laboratories SI6342 radio
+ * Library to control Silicon Laboratories si446x radio
  * Author: Peter Goodricke
  * based on dAISy project Adrian Studer ported to arduino
  * License: CC BY-NC-SA Creative Commons Attribution-NonCommercial-ShareAlike
