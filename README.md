@@ -13,7 +13,7 @@ Arduino_AIS features:
 - wraps valid packets into NMEA 0183 sentences (AIVDM)
 - sends NMEA sentences to PC via serial (9600 8N1)
 
-The output of dAISy can be processed and visualized by mapping and navigation programs like [OpenCPN](http://opencpn.org).
+The output of Arduino_AIS can be processed and visualized by mapping and navigation programs like [OpenCPN](http://opencpn.org).
 
 All content of this project is published under CC BY-NC-SA - [Creative Commons Attribution-NonCommercial-ShareAlike](http://creativecommons.org/licenses/by-nc-sa/4.0/). 
 - if using an arduino nano 
