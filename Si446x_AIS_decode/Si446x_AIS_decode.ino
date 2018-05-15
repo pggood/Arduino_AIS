@@ -359,7 +359,7 @@ void si4464clock() {
 
     if (ph_state == PH_STATE_RESET) {         // if next state is reset
       ph_radio_channel ^= 1;              // toggle radio channel between 0 and 1
-      Si4464_write((const byte[]){0x32,0x00,0x00,0x00,0x00,0x00,0x00,0x00},8);
+      Si4464_write((const byte[]){0x32,ph_radio_channel,0x00,0x00,0x00,0x00,0x00,0x00},8);
       wake_up = 1;                  // wake up main thread for packet processing and error reporting
     }
   }
