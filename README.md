@@ -1,7 +1,7 @@
 Arduino_AIS - A simple DIY AIS Receiver port of dAISy
 =================================
 
-Arduino_AIS is a simple AIS receiver based on Silicon Labs [Si4362 EZRadioPro](http://www.silabs.com/products/wireless/ezradiopro/pages/si4362.aspx) receiver, using an Arduino (3.3 volt nano used for testing)
+Arduino_AIS is a simple AIS receiver based on Silicon Labs [Si446x EZRadioPro](https://www.silabs.com/documents/public/data-sheets/Si4464-63-61-60.pdf) receiver, using an Arduino (3.3 volt nano used for testing)
 
 AIS, short for "Automatic Identification System", is a tracking system for ships. More on [Wikipedia](http://en.wikipedia.org/wiki/Automatic_Identification_System). There are many websites dedicated to tracking ships based on this system, like for example [MarineTraffic](http://www.marinetraffic.com/).
 
