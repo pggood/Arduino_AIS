@@ -17,6 +17,7 @@ The output of Arduino_AIS can be processed and visualized by mapping and navigat
 
 All content of this project is published under CC BY-NC-SA - [Creative Commons Attribution-NonCommercial-ShareAlike](http://creativecommons.org/licenses/by-nc-sa/4.0/). 
 - if using an arduino nano 
+- vcc on radio to 3.3v
 - gnd on radio to gnd
 - gpio2 on radio to pin d2
 - irq on radio to pin d3
