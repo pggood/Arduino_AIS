@@ -17,7 +17,7 @@
 //sdn on radio to pin d8 
 //mosi on radio to pin d11
 //miso on radio to pin d12
-/clock on radio to pin d13
+//clock on radio to pin d13
 static const char config[] = RADIO_CONFIGURATION_DATA_ARRAY;
 const int ClockPin =2; // 
 const int IRQPin =3;
